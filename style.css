@@ -221,3 +221,86 @@ header {
     width: 100%;
 
 }
+
+/* fourth section related style sheet */
+.fourth-section {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.fourth-heading {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.fourth-heading-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 60px;
+
+
+}
+
+.fact-info-core-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    text-align: center;
+}
+
+.fact-info {
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+
+.fact-info h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.fact-info p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* fifth section related style */
+
+.fifth-section {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fifth-section-heading-div {
+    text-align: center;
+}
+
+.sponsor-heading {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 15px;
+}
+
+.sponsor-heading-details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.all-sponsor-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+
+}
