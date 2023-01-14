@@ -170,6 +170,7 @@ header {
     font-size: 45px;
     color: #131313;
     border-left: 10px solid red;
+    padding-left: 15px;
 }
 
 .ex-feature-heading {
@@ -304,3 +305,18 @@ header {
     justify-items: center;
 
 }
+
+/* footer related style shit */
+.footer-section {
+
+    background: #FFF4E7;
+    border-radius: 8px;
+    max-width: 1440px;
+    width: 80vw;
+    margin: 150px auto;
+    padding: 40px 410px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* now we start responsive part */
