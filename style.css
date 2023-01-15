@@ -319,4 +319,221 @@ header {
     border-radius: 10px;
 }
 
+/* my personal section style sheet */
+.personal-section {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 150px auto;
+    border-radius: 20px;
+}
+
+.personal-section-top-heading {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mission-vision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+}
+
+.mission-heading,
+.vision-heading {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.mission-details,
+.vision-details {
+    font-size: 1.2rem;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.mission-button {
+
+    height: 64px;
+    background: #FF900E;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 0 20px;
+
+}
+
+.vision-button {
+    height: 64px;
+    background: #FF900E;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 0 20px;
+    margin-top: 5px;
+
+}
+
+.fact-info {
+    animation: blinking 1s steps(5, start) infinite;
+}
+
+
+@keyframes blinking {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+
+}
+
+.experience {
+    position: absolute;
+    align-self: center;
+    bottom: 50px;
+    background-color: #FF900E;
+    padding: 50px;
+    left: -70px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.exclusive-feature-image {
+    position: relative;
+}
+
 /* now we start responsive part */
+@media only screen and (max-width:576px) {
+
+    .navbar,
+    .navbar ul {
+        flex-direction: column;
+
+    }
+
+    .first-section {
+        background: none;
+        width: 100%;
+
+    }
+
+    .nav-tittle {
+        margin-top: 14px;
+        margin-left: 50px;
+    }
+
+    .banner-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .second-section-root-div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .photo-album {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-button {
+        margin-bottom: 10px;
+        margin-left: 140px;
+    }
+
+    .thrid-section-root-div {
+        flex-direction: column;
+    }
+
+    .exclusive-feature {
+        margin-left: 40px;
+    }
+
+    .exclusive-feature-image {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .experience {
+        position: absolute;
+        align-self: center;
+        bottom: 50px;
+        background-color: #FF900E;
+        padding: 50px;
+        left: 50px;
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .fact-info-core-div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .all-sponsor-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+    }
+
+    .mission-vision {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .mission-heading,
+    .vision-heading {
+        text-align: center;
+        margin-bottom: 20px;
+        border: 2px solid #888888;
+        padding: 20px;
+        border-radius: 20px;
+
+    }
+
+    .footer-section {
+        padding: 30px 20px;
+    }
+
+}
